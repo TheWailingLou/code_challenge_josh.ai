@@ -6,7 +6,7 @@ import sched, time
 
 s = sched.scheduler(time.time, time.sleep)
 
-bridgeport = "10.0.0.144:8080"
+bridgeport = "XX.X.X.XXX:8080"
 
 def getLightStates(storedLightStates, initialCheck=False):
     connection = httplib.HTTPConnection(bridgeport)
