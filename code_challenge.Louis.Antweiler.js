@@ -1,6 +1,6 @@
 var http = require('http');
 
-var bridgeport = 'http://10.0.0.144:8080'
+var bridgeport = 'http://XX.X.X.XXX:8080'
 
 getLightStates(true)
 
